@@ -6,7 +6,16 @@ ruby '2.3.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
 # Use mysql as the database for Active Record
-gem 'mysql2', '>= 0.4.4', '< 0.6.0'
+# Devise
+gem 'devise'
+gem 'omniauth-twitter'
+#Bootstrap
+gem 'bootstrap'
+#mysql2
+gem 'mysql2', '~> 0.4.4'
+
+#Bootstrap
+gem 'bootstrap-sass'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
